@@ -22,7 +22,23 @@
   echo $box2."<br>";
 
   $box2++;
-  echo $box2;
+  echo $box2."<br>";
+
+  echo PHP_INT_MAX;
+  //PHPの出力命令
+  $box3 = "test";
+
+  echo $box3;
+  print $box3;
+  print_r($box3);
+  var_dump($box3);
+  
+  echo "<br>";
+
+  $box4 = array("test1", "test2");
+  
+  print_r($box4[0]);
+  
 ?>
 
 </body>
