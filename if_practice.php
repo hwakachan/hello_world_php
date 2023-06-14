@@ -33,6 +33,39 @@
   }
 
 ?>
+  <br>
+<?php
+  $num1 = 10;
+  $num2 = 10;
+
+  if($num1 == 10 && $num2 == 10) {
+    echo("same number");
+  }
+?>
+  <br>
+  <p>how to use switch</p>
+
+<?php
+  $number = 4;
+
+  switch($number){
+  case 1:
+    echo ("number is 1");
+    break;
+
+  case 2:
+    echo ("number is 2");
+    break;
+
+  case 3:
+    echo ("number is 3");
+    break;
+  default:
+    echo ("number is not exist");
+    break;
+ 
+  }
+?>
 
 </body>
 </html>
