@@ -30,8 +30,8 @@
 
   echo $box3;
   print $box3;
-  print_r($box3);
-  var_dump($box3);
+  print_r($box3);//show array
+  var_dump($box3);// show array detail
   
   echo "<br>";
 
