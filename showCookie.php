@@ -9,6 +9,8 @@
   <?php
     echo $_COOKIE["count"];
 
+    print_r($_COOKIE);
+
     $data = $_COOKIE["count"] +1;
 
     setcookie("count", $data);
