@@ -8,21 +8,31 @@
   class Car {
     public $color;
     public $tank_capacity;
-    public $oil;
+    private $oil;
 
     function Run() {
       $this->oil--;
     }
+
+    function setOil($data) {
+      $this->oil = $data;
+    }
+
+    function getOil() {
+      echo ($this->oil);
+    }
+
+
   }
 
   $car1 = new Car();
   $car1->color = "blue";
   $car1->tank_capacity = 50;
-  $car1->oil = 5;
 
+  $car1->setOil(5);
   $car1->Run();
+  $car1->getOil();
 
-  echo ($car1->oil);
 ?>
 </body>
 </html>
