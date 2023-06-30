@@ -25,6 +25,18 @@
 
   }
 
+  class Truck extends Car{
+    public $loadage;
+
+    function Load() {
+      //something
+    }
+
+    function UnLoad() {
+      //something
+    }
+  }
+
   $car1 = new Car();
   $car1->color = "blue";
   $car1->tank_capacity = 50;
